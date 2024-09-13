@@ -1,0 +1,94 @@
+.pen-picker {
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+} 
+
+.colors {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.border {
+    border: 3px solid white;
+}
+
+#pen-action {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.ancre-container {
+    width: 200px;
+    border: 2px solid black;
+}
+
+.ancre-container > div {
+    width: 100%;
+    height: 15px;
+    background-color: blue;
+    transition: .5s;
+}
+
+.bic {
+    width: 600px;
+    height: 40px;
+    background:  no-repeat url("../img/photo-949896-bic-shine-stylo-4-couleurs-bleu-removebg-preview.png");
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 180px;
+    justify-content: start;
+}
+
+.text-output {
+    border: solid 2px black;
+    width: 40%;
+    padding: 10px;
+    transition: .5s;
+    margin: 5px;
+}
+
+button {
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    color: white;
+    background-color: grey;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+.choose-color {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
